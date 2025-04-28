@@ -14,3 +14,6 @@ jobs:
 
       - name: Run linter
         uses: ./.github/actions/lint
+
+      - name: Run tests
+        uses: ./.github/actions/test
